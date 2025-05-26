@@ -2,16 +2,93 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+# pollyfony-studios
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A TypeScript-based project for the Pollyfony Studios initiative.
+
+
+#first:
+if you find out there are red marks in import, meaning libraries just run :
+   ```bash
+   npm install <lib-name>
+   ```
+eg:
+import Lottie from "react-lottie"
+
+run:
+   ```bash
+   npm install react-lottie
+   ```
+like this install every library 
+
+#second:
+
+### If you want to edit something in the content go to 
+1.component->
+   i)Hero.tsx
+
+in hero.tsx you can edit the content and whatever it is written on the card for your website
+
+
+## Installation
+
+
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ProthamD/pollyfony-studios.git
+   cd pollyfony-studios
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+   or, if you use Yarn:
+   ```bash
+   yarn install
+   ```
+
+## Setup & Usage
+
+- **Start the development server:**
+  ```bash
+  npm run dev
+  ```
+  or
+  ```bash
+  yarn dev
+  ```
+
+- **Build for production:**
+  ```bash
+  npm run build
+  ```
+  or
+  ```bash
+  yarn build
+  ```
+
+- **Run code linting:**
+  ```bash
+  npm run lint
+  ```
+  or
+  ```bash
+  yarn lint
+  ```
+
+## Tech Stack
+
+- **TypeScript**
+- **React**
+- **CSS**
+
+---
+
+Feel free to open issues or pull requests to contribute!
+
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
